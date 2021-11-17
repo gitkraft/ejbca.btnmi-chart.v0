@@ -65,6 +65,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | `fullnameOverride`       | String to fully override ebjca.fullname template                                        | `""`           |
 | `commonLabels`           | Add labels to all the deployed resources                                                | `{}`           |
 | `commonAnnotations`      | Annotations to be added to all deployed resources                                       | `{}`           |
+| `extraDeploy`            | Array of extra objects to deploy with the release                                       | `[]`           |
 | `diagnosticMode.enabled` | Enable diagnostic mode (all probes will be disabled and the command will be overridden) | `false`        |
 | `diagnosticMode.command` | Command to override all containers in the deployment                                    | `["sleep"]`    |
 | `diagnosticMode.args`    | Args to override all containers in the deployment                                       | `["infinity"]` |
@@ -76,7 +77,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | ------------------------------------ | ----------------------------------------------------------------------------------------- | ----------------------- |
 | `image.registry`                     | EJBCA image registry                                                                      | `docker.io`             |
 | `image.repository`                   | EJBCA image name                                                                          | `bitnami/ejbca`         |
-| `image.tag`                          | EJBCA image tag                                                                           | `7.4.3-2-debian-10-r24` |
+| `image.tag`                          | EJBCA image tag                                                                           | `7.4.3-2-debian-10-r28` |
 | `image.pullPolicy`                   | EJBCA image pull policy                                                                   | `IfNotPresent`          |
 | `image.pullSecrets`                  | Specify docker-registry secret names as an array                                          | `[]`                    |
 | `image.debug`                        | Enable image debug mode                                                                   | `false`                 |
