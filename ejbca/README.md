@@ -1,9 +1,13 @@
 <!--- app-name: EJBCA -->
 
-# EJBCA
+# EJBCA packaged by Bitnami
 
-[EJBCA](https://www.ejbca.org/) is a free software public key infrastructure certificate authority software package.
+EJBCA is an enterprise class PKI Certificate Authority software, built using Java (JEE) technology.
 
+[Overview of EJBCA](http://www.ejbca.org)
+
+Trademarks: This software listing is packaged by Bitnami. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.
+                           
 ## TL;DR
 
 ```console
@@ -305,7 +309,7 @@ Persistent Volume Claims are used to keep the data across deployments. This is k
 
 ## Troubleshooting
 
-Find more information about how to deal with common errors related to Bitnami’s Helm charts in [this troubleshooting guide](https://docs.bitnami.com/general/how-to/troubleshoot-helm-chart-issues).
+Find more information about how to deal with common errors related to Bitnami's Helm charts in [this troubleshooting guide](https://docs.bitnami.com/general/how-to/troubleshoot-helm-chart-issues).
 
 ## Upgrading
 
